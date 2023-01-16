@@ -1,0 +1,56 @@
+To check git install or not
+git --version
+
+to set username
+git config --global user.name "Abhishek more"
+
+to set email
+git config --global user.email "moreabhishek600@gmail.com"
+
+to check the email
+git config --global user.email
+
+to change username/email
+git config --global --edit
+
+to make folder repository
+git init
+
+to add files 
+git add .
+
+to commit the changes
+git commit -m "initial commit"
+
+to see the changes or modifications
+git status
+
+to see all total commits
+git log
+
+to go or switch into perticular previous commit or branch
+git checkout hashcode or branch name
+
+to go in master branch
+git checkout master
+
+to create branch 
+git branch branchName
+
+to create branch and switch directly 
+git checkout -b branchName
+
+to merge branch
+git merge branchName/fileName
+
+to make new file
+touch .fileName
+
+to make any file ignore by github
+make file as .gitignore
+
+to clone repository
+git clone repoUrl
+
+to contribute in someone else branch
+fork=>clone your repository=>after changes=>push=>contribute=>open pull request=>owner will see pull request and approve then it'll merge automatically
